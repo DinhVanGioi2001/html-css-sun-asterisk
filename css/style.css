@@ -331,6 +331,7 @@ body {
   justify-content: space-between;
   cursor: pointer;
   color: #cccccc !important;
+  align-items: center;
 }
 .box .box-container .title-style {
   font-size: 11px;
