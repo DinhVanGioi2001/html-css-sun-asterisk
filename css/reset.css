@@ -1,0 +1,70 @@
+/* CSS Reset */
+
+/* Làm cho các phần tử có margin và padding mặc định là 0 */
+body,
+div,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+form,
+fieldset,
+input,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Đặt font-family và font-size mặc định cho các phần tử văn bản */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Xóa đường viền mặc định và đặt box-sizing là border-box cho tất cả các phần tử */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+input,
+textarea,
+button {
+  border: none;
+  background: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
